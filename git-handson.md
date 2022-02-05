@@ -1,85 +1,85 @@
 プロジェクトを作る
 GithubのCollaboratorに誰かを追加する
 
-$ git clone <url>
+`$ git clone <url>`
 
-$ ls -lrt
+`$ ls -lrt`
 
-$ cd <cloneしたレポジトリ名（=ディレクトリ名）>
+`$ cd <cloneしたレポジトリ名（=ディレクトリ名）>`
 
-$ pwd
+`$ pwd`
 
-$ ls
+`$ ls`
 
-$ ls -a
+`$ ls -a`
 
-$ git status
+`$ git status`
 
-$ git branch
+`$ git branch`
 
-$ git branch feature/add_<your_name>_file
+`$ git branch feature/add_<your_name>_file`
 
-$ git branch
+`$ git branch`
 
-$ git checkout feature/add_<your_name>_file
+`$ git checkout feature/add_<your_name>_file`
 
-$ git branch
+`$ git branch`
 
-$ touch <your_name>.md
+`$ touch <your_name>.md`
 your_nameは以下のルールで入力する
 - 氏、名の順
 - 小文字アルファベット
 - ハイフン区切り
 - koyama-yoshihito.md
 
-$ ls
+`$ ls`
 
-$ vi <your_name>.md
+`$ vi <your_name>.md`
 
-$ i
+`$ i`
 
 一行目にファイル名と同じ氏名を記入する。
 例：koyama-yoshihito
 
 escキーを押す
 
-:wqを押す
+`:wq`を押す
 
 エンターキーを押す
 
-$ cat <your_name>.md
+`$ cat <your_name>.md`
 
-$ git status
+`$ git status`
 
-$ git add <your_name>.md
+`$ git add <your_name>.md`
 
-$ git status
+`$ git status`
 
-$ git commit -m "<your_name>.mdを追加"
+`$ git commit -m "<your_name>.mdを追加"`
 <your_name>は自分が追加したファイル名に置き換える
 
-$ git log
+`$ git log`
 
-$ git log --oneline
+`$ git log --oneline`
 
-$ git push
+`$ git push`
 
-$ git push --set-upstream origin feature/add_<your_name>_file
+`$ git push --set-upstream origin feature/add_<your_name>_file`
 
 GitHubを開いてPull Requestを作成する
 
 小山がApproveしたらマージする
 
-$ git checkout main
+`$ git checkout main`
 
-$ git branch
+`$ git branch`
 
-$ git log --oneline
+`$ git log --oneline`
 
-$ git pull
+`$ git pull`
 
-$ git log --oneline
+`$ git log --oneline`
 
-$ git branch --delete feature/add_<your_name>_file
+`$ git branch --delete feature/add_<your_name>_file`
 
-$ git branch
+`$ git branch`
